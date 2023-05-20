@@ -12,12 +12,12 @@
     Development, Full stack web development where my knowledge,
     skills, and experience can be applied to provide extensive value
     to the business or project with which I am engaged." name="description" />
-  <meta content="App Developer, Portfolio, Saman KC, samankc, Saman Kc, Saman , saman, saman kc, flutter, dart, Web Developer"
+  <meta
+    content="App Developer, Portfolio, Saman KC, samankc, Saman Kc, Saman , saman, saman kc, flutter, dart, Web Developer"
     name="keywords" />
 
   <!-- Favicons -->
   <link href="assets/img/logo.jpeg" rel="icon">
-
 
   <!-- Google Fonts -->
   <link
@@ -33,18 +33,19 @@
 
   <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5689812736648815"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <div id="preloader"></div>
+
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
       <h1 class="logo"><a href="index.html">Saman KC</a></h1>
-
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.jpeg" alt="" class="img-fluid"></a> -->
-      <!-- Uncomment below if you prefer to use an text logo -->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -62,20 +63,28 @@
 
   <!-- ======= Hero Section ======= -->
   <div id="hero" class="home">
+    <div id="particles-container"></div>
     <div class="container">
+
+
       <div class="hero-content">
         <h1>I'M Saman KC
         </h1>
         <p>Mobile App Developer</p>
-
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/WhiteDevil1641" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="https://twitter.com/samankc1641" target="_blank"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://github.com/SamanKC" target="_blank"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://www.instagram.com/saman.kc" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/saman-kc-240a9b174/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+          </li>
         </ul>
+
       </div>
     </div>
+
+
   </div><!-- End Hero -->
 
   <main id="main">
@@ -402,16 +411,7 @@
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
     <div class="container">
-      <div class="socials-media text-center">
-
-        <ul class="list-unstyled">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-        </ul>
-
-      </div>
+    
 
       <p>&copy; Copyrights <span id="currentYear"></span> SamanKC. All rights reserved.</p>
 
@@ -431,8 +431,8 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -441,6 +441,33 @@
     var currentYear = new Date().getFullYear();
     currentYearElement.innerText = currentYear;
   </script>
+  <script>
+    particlesJS("particles-container", {
+      particles: {
+        number: { value: 80 },
+        color: { value: "#000" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5, random: true },
+        size: { value: 3, random: true },
+        move: { enable: true, speed: 2, direction: "none", random: false },
+        line_linked: { enable: false }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.4 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+
 
 </body>
 
