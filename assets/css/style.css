@@ -21,8 +21,9 @@ h6 {
   margin: 0;
 }
 
+
 h2 {
-  color: #0553b1;
+  color: #FF7F50 ;
   font-weight: 600;
 }
 
@@ -117,12 +118,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #0553b1;
+  background: #FF7F50 ;
   color: #fff;
 }
 
 ::selection {
-  background: #0553b1;
+  background: #FF7F50 ;
   color: #fff;
 }
 
@@ -194,7 +195,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #0553b1;
+  background: #FF7F50 ;
 }
 
 .mb-30 {
@@ -215,7 +216,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0553b1;
+  background: #FF7F50 ;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -267,7 +268,7 @@ p {
 }
 
 #header .logo a {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 #header .logo img {
@@ -327,7 +328,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 .navbar .dropdown ul {
@@ -361,7 +362,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 .navbar .dropdown:hover > ul {
@@ -460,7 +461,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 .navbar-mobile .getstarted,
@@ -495,7 +496,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -513,6 +514,7 @@ p {
   width: 100%;
   position: sticky;
 }
+
 
 #particles-container {
   position: absolute;
@@ -543,11 +545,13 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 55px;
+  font-size: 62px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #0553b1;
+  /* color: #FF7F50 ; */
+  color: #FF7F50 ;
+    /* font-size: xx-large; */
 }
 
 .hero-content p {
@@ -566,7 +570,7 @@ p {
 }
 
 .hero-content .list-social li i {
-  color: #0553b1;
+  color: #FF7F50 ;
   font-size: 15px;
 }
 
@@ -575,7 +579,7 @@ p {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 120px 0 0 0;
-  background-color: #0553b1;
+  background-color: #FF7F50 ;
   min-height: 40px;
 }
 
@@ -643,7 +647,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #0553b1;
+  border: 20px solid #FF7F50 ;
 }
 
 #about .div-img-bg .about-img img {
@@ -696,7 +700,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #0553b1;
+  color: #FF7F50 ;
   line-height: 44px;
 }
 
@@ -710,11 +714,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0553b1;
+  border: 1px solid #FF7F50 ;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0553b1;
+  background-color: #FF7F50 ;
 }
 
 /*--------------------------------------------------------------
@@ -749,7 +753,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -792,7 +796,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #0553b1;
+  color: #FF7F50 ;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -833,14 +837,14 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0553b1;
+  border: 1px solid #FF7F50 ;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #0553b1;
+  background-color: #FF7F50 ;
 }
 
 .portfolio-details .portfolio-info {
@@ -928,7 +932,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #0553b1;
+  color: #FF7F50 ;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1006,7 +1010,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #0553b1;
+  color: #FF7F50 ;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1090,7 +1094,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #0553b1;
+  border-left: 4px solid #FF7F50 ;
 }
 
 /*--------------------------------------------------------------
@@ -1129,7 +1133,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #0553b1;
+  color: #FF7F50 ;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1183,7 +1187,12 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
-
+  #hero {
+  background: url("../img/backgroundsamanhalf.png") repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+  }
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -1265,7 +1274,30 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+     
+        
+    
+       
+ #hero {
+background: url("../img/backgroundsamanhalf.png") repeat scroll center center/cover;
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+ }
 
+ #hero h1{
+  font-size:46px;
+  color: #FF7F50 ;
+ }
+
+ #hero p{
+  font-size: 16px;
+  color: #FF7F50 ;
+ }
+
+ #hero ul li a i{
+color: #FF7F50 ;
+ }
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1347,7 +1379,25 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
-
+     .hero-content {
+       text-align: center;
+     }
+  
+     .list-social {
+       display: flex;
+       justify-content: center;
+       margin-top: 20px;
+     }
+  
+     .list-social li {
+       margin-right: 10px;
+     }
+ #hero {
+    background: url("../img/backgroundsamanhalf.png") repeat scroll center center/cover;
+      height: 100vh;
+      width: 100%;
+      position: sticky;
+ }
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
